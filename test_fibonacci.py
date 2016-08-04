@@ -6,5 +6,6 @@ def test_fibonacci():
     Fibonacci(n)
     """
     import fibonacci as fb
+    assert fb.Fibonacci(1) == 1
     assert fb.Fibonacci(10) == 55
     assert fb.Fibonacci(5) == 5
